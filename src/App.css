@@ -188,5 +188,10 @@ img{
     }
 }
 
+/* Body Styling */
 
-
+body{
+    background: var(--BgColor);
+    color: white;
+    
+}
