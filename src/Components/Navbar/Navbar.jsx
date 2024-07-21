@@ -1,4 +1,8 @@
 import './navbar.css'
+import { AiFillCloseCircle } from "react-icons/ai";
+import { TbGridDots } from "react-icons/tb";
+
+
 
 function Navbar(){
 
@@ -10,26 +14,31 @@ function Navbar(){
             </div>
 
             <div className="navBar">
-                <ul className="navList">
+                <ul className="navLists">
                     <li className="navItem">
-                        <a href="#about">1.<span>About</span></a>
+                        <a href="#about" className='navLink'><span className='head erNumber'>1.</span>About</a>
                     </li>
                     <li className="navItem">
-                        <a href="#skills">2.<span>Skills</span></a>
+                        <a href="#skills" className='navLink'><span className='headerNumber'>2.</span>Skills</a>
                     </li>
                     <li className="navItem">
-                        <a href="#projects">3.<span>Projects</span></a>
+                        <a href="#projects" className='navLink'><span className='headerNumber'>3.</span>Projects</a>
                     </li>
                     <li className="navItem">
-                        <a href="#contact">4.<span>Contact</span></a>
+                        <a href="#contact" className='navLink'><span className='headerNumber'>4.</span>Contact</a>
                     </li>
                     <button className="btn"><a href="">Resume</a></button>
                 </ul>
 
                 <div className="closeNavBar">
-                    
+                    <AiFillCloseCircle className='icon'/>
                 </div>
             </div>
+
+            <div className="toggleNavBar">
+                <TbGridDots className='icon'/>
+            </div>
+
         </header>
         </>
     )
