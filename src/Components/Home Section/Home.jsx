@@ -52,6 +52,20 @@ function Home(){
                 </div>
             </div>
 
+            {/* <div className="rightEmail">
+                <div>
+                    <div className="emailAddress">
+                        <a href="https://mailto:vlad.steau11@gmail.com"
+                        target='_blank'>
+                            vlad.steau11@gmail.com
+                        </a>
+                    </div>
+                    <div className="line">
+
+                    </div>
+                </div>
+            </div> */}
+
         </section>
         </>
     )
