@@ -35,7 +35,7 @@
     width: 80%;
     border-radius: 1rem;
     padding: 1rem;
-    top: 6rem;
+    top: -100rem;
     left: 50%;
     transform: translate(-50%);
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
@@ -77,5 +77,8 @@
   }
   .header .navBar .closeNavBar:hover .icon {
     color: var(--primaryColor);
+  }
+  .header .activeNavBar {
+    top: 6rem;
   }
 }/*# sourceMappingURL=navbar.css.map */
