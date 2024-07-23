@@ -27,7 +27,7 @@ function Navbar(){
             <div className={active}>
                 <ul onClick={removeNavBar} className="navLists">
                     <li className="navItem">
-                        <a href="#about" className='navLink'><span className='head erNumber'>1.</span>About</a>
+                        <a href="#about" className='navLink'><span className='headerNumber'>1.</span>About</a>
                     </li>
                     <li className="navItem">
                         <a href="#skills" className='navLink'><span className='headerNumber'>2.</span>Skills</a>

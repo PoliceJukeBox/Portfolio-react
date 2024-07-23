@@ -39,7 +39,7 @@ function Home(){
                    styles to serve the exact need.  
                 </p>
                 <div className="lowerHomeSection">
-                    <button className="containerBtn">
+                    <button className="contactBtn">
                         <a href="#contact" className="flex">
                             Contact Me <TbArrowBigRightLines className='icon'/>
                         </a>

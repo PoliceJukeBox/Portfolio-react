@@ -27,6 +27,26 @@
         cursor: pointer;
     }
 
+    // @media screen and (min-width: 768px){
+    //     .navLists{
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
+    //         gap: 3rem;
+
+    //         .navItem{
+    //             width: max-content;
+    //             height: 100%;
+    //             background-color: red;
+    //             font-size: 1.5rem;
+    //         }
+    //     }
+
+    //     .closeNavBar{
+    //         display: none;
+    //     }
+    // }
+
     @media screen and (max-width: 768px){
         .navBar{
             background: var(--projectCardColor);
