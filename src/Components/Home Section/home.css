@@ -34,6 +34,7 @@
   padding: 0.5rem 0;
 }
 .home .homeContainer .homeParagraph {
+  font-size: 1.3rem;
   padding: 0.6rem;
   color: var(--paragraphColor);
   padding: 1rem 0;
@@ -58,4 +59,33 @@
 }
 .home .homeContainer .lowerHomeSection .scrollDiv {
   padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.home .homeContainer .lowerHomeSection .scrollDiv .scroll {
+  font-size: 1rem;
+  color: var(--primaryColor);
+}
+.home .homeContainer .lowerHomeSection .scrollDiv .icon {
+  font-size: 1.3rem;
+  margin-left: 0.6rem;
+  color: var(--primaryColor);
+  animation: move 0.8s infinite;
+}
+@keyframes move {
+  0% {
+    transform: translateY(5px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
 }/*# sourceMappingURL=home.css.map */

@@ -8,13 +8,16 @@ import { TbGridDots } from "react-icons/tb";
 function Navbar(){
 
     const [active, setActive] = useState('navBar');
+    const [activeDots, setActiveDots] = useState('toggleNavBar')
 
     const showNavBar = () =>{
         setActive('navBar activeNavBar');
+        setActiveDots('toggleNavBar activeDots');
     }
 
     const removeNavBar = () =>{
         setActive('navBar ');
+        setActiveDots('toggleNavBar');
     }
 
     return(
@@ -46,7 +49,7 @@ function Navbar(){
                 </div>
             </div>
 
-            <div onClick={showNavBar} className="toggleNavBar">
+            <div onClick={showNavBar} className={activeDots}>
                 <TbGridDots className='icon'/>
             </div>
 

@@ -46,7 +46,8 @@ function Home(){
                     </button>
                     <div className="scrollDiv">
                         <a href="#about" className="flex">
-                            Scroll Down <FiChevronsDown className='icon'/>
+                            <h6 className='scroll'>Scroll Down</h6>
+                            <FiChevronsDown className='icon'/>
                         </a>
                     </div>
                 </div>

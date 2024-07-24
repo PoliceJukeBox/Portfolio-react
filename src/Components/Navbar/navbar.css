@@ -81,4 +81,7 @@
   .header .activeNavBar {
     top: 6rem;
   }
+  .header .activeDots {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */
