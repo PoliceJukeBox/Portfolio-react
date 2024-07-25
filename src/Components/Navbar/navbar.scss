@@ -27,25 +27,44 @@
         cursor: pointer;
     }
 
-    // @media screen and (min-width: 768px){
-    //     .navLists{
-    //         display: flex;
-    //         justify-content: center;
-    //         align-items: center;
-    //         gap: 3rem;
+    @media screen and (min-width: 768px){
+        .navLists{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
 
-    //         .navItem{
-    //             width: max-content;
-    //             height: 100%;
-    //             background-color: red;
-    //             font-size: 1.5rem;
-    //         }
-    //     }
+            .navItem{
+                width: max-content;
+                height: 100%;
+                font-size: 1.5rem;
 
-    //     .closeNavBar{
-    //         display: none;
-    //     }
-    // }
+                .navLink{
+                    color: var(--textColor);
+                    font-weight: 600;
+                    &:hover{
+                        color: var(--primaryColor);
+                    }
+
+                    .headerNumber{
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+
+            .btn a{
+                color: var(--textColor);
+            }
+        }
+
+        .closeNavBar{
+            display: none;
+        }
+
+        .toggleNavBar{
+            display:none;
+        }
+    }
 
     @media screen and (max-width: 768px){
         .navBar{
