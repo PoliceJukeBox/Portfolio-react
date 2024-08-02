@@ -14,7 +14,17 @@ function About(){
 
             <div className="sectionContent grid">
                 <div className="textSection">
-                    
+                    <h4>
+                    I'm a succsess-driven and determined developer. I have
+                    experience using HTML, Sass, Javascript and React to build
+                    accessible component-based web pages and systems. <br />
+                    Ability to deliver quality results using the multiple web 
+                    technologies listed above, also having experience with some software languages such
+                    as Python or C++. <br />
+                    I'm a passionate person willing to learn more technologies to
+                    become a better developer than I was yesterday, determined and
+                    result oriented.
+                    </h4>
                 </div>
             </div>
         </section>
