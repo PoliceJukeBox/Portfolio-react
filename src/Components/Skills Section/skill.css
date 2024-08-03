@@ -82,4 +82,10 @@
 }
 .skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover::before, .skills .skillsContainer .skillGroup .generalSkills .singleSkill .iconBox:hover::after {
   height: 100%;
+}
+.skills .skillsContainer .skillGroup .generalSkills .singleSkill .skillName {
+  padding-top: 0.3rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--secondaryColor);
 }/*# sourceMappingURL=skill.css.map */

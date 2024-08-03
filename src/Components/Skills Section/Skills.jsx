@@ -17,6 +17,7 @@ function Skills(){
             </div>
 
             <div className="skillsContainer grid">
+
                 <div className="skillGroup">
                     <div className="groupTitle">
                         <h2 className='title'>Web Development</h2>
@@ -51,6 +52,91 @@ function Skills(){
                                 <SiCss3 className='icon'/>
                             </div>
                             <span className="skillName">Css3</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <FaHtml5  className='icon'/>
+                            </div>
+                            <span className="skillName">Html5</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <FaNodeJs className='icon'/>
+                            </div>
+                            <span className="skillName">NodeJs</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="skillGroup">
+                    <div className="groupTitle">
+                        <h2 className='title'>Programming Languages</h2>
+                        <span className="subTitle">2 years experience</span>
+                    </div>
+
+                    <div className="generalSkills">
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <TbBrandReactNative className='icon'/>
+                            </div>
+                            <span className="skillName">Python</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <IoLogoJavascript className='icon'/>
+                            </div>
+                            <span className="skillName">C++</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <IoLogoSass className='icon'/>
+                            </div>
+                            <span className="skillName">C</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="skillGroup">
+                    <div className="groupTitle">
+                        <h2 className='title'>Other Skills</h2>
+                        <span className="subTitle">2 years experience</span>
+                    </div>
+
+                    <div className="generalSkills">
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <TbBrandReactNative className='icon'/>
+                            </div>
+                            <span className="skillName">Git</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <IoLogoJavascript className='icon'/>
+                            </div>
+                            <span className="skillName">Github</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <IoLogoSass className='icon'/>
+                            </div>
+                            <span className="skillName">Linux</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <SiCss3 className='icon'/>
+                            </div>
+                            <span className="skillName">SQL</span>
                         </div>
 
                         <div className="singleSkill">
