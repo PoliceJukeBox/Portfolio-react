@@ -1,5 +1,8 @@
 import './skill.css'
 import { TbBrandReactNative } from "react-icons/tb";
+import { IoLogoJavascript, IoLogoSass } from "react-icons/io";
+import { SiCss3 } from "react-icons/si";
+import { FaHtml5, FaNodeJs } from "react-icons/fa";
 
 function Skills(){
 
@@ -23,45 +26,45 @@ function Skills(){
                     <div className="generalSkills">
 
                         <div className="singleSkill">
-                            <div className="iconBox">
-                                <TbBrandReactNative className='icon'/>
-                            </div>
-                            <span className="skillName">React</span>
-                        </div>
-                        
-                        <div className="singleSkill">
-                            <div className="iconBox">
+                            <div className="iconBox flex">
                                 <TbBrandReactNative className='icon'/>
                             </div>
                             <span className="skillName">React</span>
                         </div>
 
                         <div className="singleSkill">
-                            <div className="iconBox">
-                                <TbBrandReactNative className='icon'/>
+                            <div className="iconBox flex">
+                                <IoLogoJavascript className='icon'/>
                             </div>
-                            <span className="skillName">React</span>
+                            <span className="skillName">JavaScript</span>
                         </div>
 
                         <div className="singleSkill">
-                            <div className="iconBox">
-                                <TbBrandReactNative className='icon'/>
+                            <div className="iconBox flex">
+                                <IoLogoSass className='icon'/>
                             </div>
-                            <span className="skillName">React</span>
+                            <span className="skillName">Sass</span>
                         </div>
 
                         <div className="singleSkill">
-                            <div className="iconBox">
-                                <TbBrandReactNative className='icon'/>
+                            <div className="iconBox flex">
+                                <SiCss3 className='icon'/>
                             </div>
-                            <span className="skillName">React</span>
+                            <span className="skillName">Css3</span>
                         </div>
 
                         <div className="singleSkill">
-                            <div className="iconBox">
-                                <TbBrandReactNative className='icon'/>
+                            <div className="iconBox flex">
+                                <FaHtml5  className='icon'/>
                             </div>
-                            <span className="skillName">React</span>
+                            <span className="skillName">Html5</span>
+                        </div>
+
+                        <div className="singleSkill">
+                            <div className="iconBox flex">
+                                <FaNodeJs className='icon'/>
+                            </div>
+                            <span className="skillName">NodeJs</span>
                         </div>
 
                     </div>
