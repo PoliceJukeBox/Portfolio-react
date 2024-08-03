@@ -20,9 +20,20 @@ function Navbar(){
         setActiveDots('toggleNavBar');
     }
 
+    const [activeHeader, setActiveHeader] = useState('header');
+    const addBg = () =>{
+        if(window.scrollY >= 10){
+            setActiveHeader('header activeHeader');
+        }else{
+            setActiveHeader('header');
+        }
+    }
+
+    window.addEventListener('scroll', addBg);
+
     return(
         <>
-        <header className='header'>
+        <header className={activeHeader}>
             <div className="logoDiv">
                 <h1 className="logo"><a href="#home">Sv.</a></h1>
             </div>

@@ -19,45 +19,11 @@
   height: var(--headerHeight);
   padding: 2rem;
   z-index: 1000;
-  background: var(--projectCardColor);
 }
 .header .logo a {
   color: var(--textColor);
   font-weight: 600;
   cursor: pointer;
-}
-@media screen and (min-width: 768px) {
-  .header .navLists {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-  }
-  .header .navLists .navItem {
-    width: -moz-max-content;
-    width: max-content;
-    height: 100%;
-    font-size: 1.5rem;
-  }
-  .header .navLists .navItem .navLink {
-    color: var(--textColor);
-    font-weight: 600;
-  }
-  .header .navLists .navItem .navLink:hover {
-    color: var(--primaryColor);
-  }
-  .header .navLists .navItem .navLink .headerNumber {
-    color: var(--primaryColor);
-  }
-  .header .navLists .btn a {
-    color: var(--textColor);
-  }
-  .header .closeNavBar {
-    display: none;
-  }
-  .header .toggleNavBar {
-    display: none;
-  }
 }
 @media screen and (max-width: 768px) {
   .header .navBar {
@@ -117,4 +83,9 @@
   .header .activeDots {
     display: none;
   }
+}
+
+.activeHeader {
+  background-color: var(--projectCardColor);
+  box-shadow: 0 2px 4px rgba(1, 15, 29, 0.904);
 }/*# sourceMappingURL=navbar.css.map */

@@ -19,7 +19,7 @@
     height: var(--headerHeight);
     padding: 2rem;
     z-index: 1000;
-    background: var(--projectCardColor);
+    // background: var(--projectCardColor);
 
     .logo a{
         color: var(--textColor);
@@ -27,44 +27,44 @@
         cursor: pointer;
     }
 
-    @media screen and (min-width: 768px){
-        .navLists{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 3rem;
+    // @media screen and (min-width: 768px){
+    //     .navLists{
+    //         display: flex;
+    //         justify-content: center;
+    //         align-items: center;
+    //         gap: 3rem;
 
-            .navItem{
-                width: max-content;
-                height: 100%;
-                font-size: 1.5rem;
+    //         .navItem{
+    //             width: max-content;
+    //             height: 100%;
+    //             font-size: 1.5rem;
 
-                .navLink{
-                    color: var(--textColor);
-                    font-weight: 600;
-                    &:hover{
-                        color: var(--primaryColor);
-                    }
+    //             .navLink{
+    //                 color: var(--textColor);
+    //                 font-weight: 600;
+    //                 &:hover{
+    //                     color: var(--primaryColor);
+    //                 }
 
-                    .headerNumber{
-                        color: var(--primaryColor);
-                    }
-                }
-            }
+    //                 .headerNumber{
+    //                     color: var(--primaryColor);
+    //                 }
+    //             }
+    //         }
 
-            .btn a{
-                color: var(--textColor);
-            }
-        }
+    //         .btn a{
+    //             color: var(--textColor);
+    //         }
+    //     }
 
-        .closeNavBar{
-            display: none;
-        }
+    //     .closeNavBar{
+    //         display: none;
+    //     }
 
-        .toggleNavBar{
-            display:none;
-        }
-    }
+    //     .toggleNavBar{
+    //         display:none;
+    //     }
+    // }
 
     @media screen and (max-width: 768px){
         .navBar{
@@ -136,4 +136,9 @@
             display:none;
         }
     }
+}
+
+.activeHeader{
+    background-color: var(--projectCardColor);
+    box-shadow: 0 2px 4px rgba(1, 15, 29, 0.904);
 }
