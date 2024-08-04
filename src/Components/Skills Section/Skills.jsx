@@ -1,8 +1,8 @@
 import './skill.css'
 import { TbBrandReactNative } from "react-icons/tb";
 import { IoLogoJavascript, IoLogoSass } from "react-icons/io";
-import { SiCss3 } from "react-icons/si";
-import { FaHtml5, FaNodeJs } from "react-icons/fa";
+import { SiCss3, SiCplusplus, SiC, SiMysql } from "react-icons/si";
+import { FaHtml5, FaNodeJs, FaPython, FaGitSquare, FaGithub, FaLinux } from "react-icons/fa";
 
 function Skills(){
 
@@ -81,21 +81,21 @@ function Skills(){
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <TbBrandReactNative className='icon'/>
+                                <FaPython  className='icon'/>
                             </div>
                             <span className="skillName">Python</span>
                         </div>
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <IoLogoJavascript className='icon'/>
+                                <SiCplusplus className='icon'/>
                             </div>
                             <span className="skillName">C++</span>
                         </div>
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <IoLogoSass className='icon'/>
+                                <SiC className='icon'/>
                             </div>
                             <span className="skillName">C</span>
                         </div>
@@ -113,44 +113,30 @@ function Skills(){
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <TbBrandReactNative className='icon'/>
+                                <FaGitSquare className='icon'/>
                             </div>
                             <span className="skillName">Git</span>
                         </div>
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <IoLogoJavascript className='icon'/>
+                                <FaGithub className='icon'/>
                             </div>
                             <span className="skillName">Github</span>
                         </div>
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <IoLogoSass className='icon'/>
+                                <FaLinux className='icon'/>
                             </div>
                             <span className="skillName">Linux</span>
                         </div>
 
                         <div className="singleSkill">
                             <div className="iconBox flex">
-                                <SiCss3 className='icon'/>
+                                <SiMysql className='icon'/>
                             </div>
                             <span className="skillName">SQL</span>
-                        </div>
-
-                        <div className="singleSkill">
-                            <div className="iconBox flex">
-                                <FaHtml5  className='icon'/>
-                            </div>
-                            <span className="skillName">Html5</span>
-                        </div>
-
-                        <div className="singleSkill">
-                            <div className="iconBox flex">
-                                <FaNodeJs className='icon'/>
-                            </div>
-                            <span className="skillName">NodeJs</span>
                         </div>
 
                     </div>
