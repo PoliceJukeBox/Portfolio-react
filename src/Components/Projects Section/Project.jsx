@@ -11,6 +11,10 @@ function Project(){
                     <div className="underline"><span></span></div>
                 </h5>
             </div>
+
+            <div className="projectContainer grid">
+                
+            </div>
         </section>
         </>
     )
