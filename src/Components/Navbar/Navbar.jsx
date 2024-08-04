@@ -44,7 +44,7 @@ function Navbar(){
                         <a href="#about" className='navLink'><span className='headerNumber'>1.</span>About</a>
                     </li>
                     <li className="navItem">
-                        <a href="#skills" className='navLink'><span className='headerNumber'>2.</span>Skills</a>
+                        <a href="#skill" className='navLink'><span className='headerNumber'>2.</span>Skills</a>
                     </li>
                     <li className="navItem">
                         <a href="#projects" className='navLink'><span className='headerNumber'>3.</span>Projects</a>
