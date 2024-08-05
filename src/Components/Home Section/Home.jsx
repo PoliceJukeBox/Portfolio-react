@@ -11,15 +11,16 @@ function Home(){
 
             <div className="leftIcons">
                 <div className="socials grid">
-                    <a href="" target='_blank'>
+                    <a href="https://github.com/PoliceJukeBox" target='_blank'>
                         <AiFillGithub className='icon'/>
                     </a>
-                    <a href="" target='_blank'>
+                    <a href="https://www.linkedin.com" target='_blank'>
                         <AiFillLinkedin className='icon'/>
                     </a>
-                    <a href="" target='_blank'>
+                    <a href="https://www.instagram.com/vlad_steau/" target='_blank'>
                         <AiFillInstagram className='icon'/>
                     </a>
+                    <div className="line"></div>
                 </div>
             </div>
 

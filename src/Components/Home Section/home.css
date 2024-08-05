@@ -136,4 +136,34 @@
     font-weight: 600;
     color: var(--secondaryColor);
   }
+  .home .leftIcons .line, .home .rightEmail .line {
+    margin: auto;
+    content: "";
+    background: var(--secondaryColor);
+    height: 100px;
+    width: 1px;
+  }
+  .home .leftIcons {
+    left: 5%;
+    bottom: 0;
+  }
+  .home .leftIcons .socials {
+    gap: 1rem;
+  }
+  .home .leftIcons .socials a {
+    color: var(--textColor);
+  }
+  .home .leftIcons .socials a:hover .icon {
+    color: var(--primaryColor);
+  }
+  .home .rightEmail {
+    right: 0;
+    bottom: 0;
+  }
+  .home .rightEmail .emailAddress {
+    transform: rotate(90deg) translate(-90px, 0);
+  }
+  .home .rightEmail .emailAddress a {
+    letter-spacing: 1px;
+  }
 }/*# sourceMappingURL=home.css.map */

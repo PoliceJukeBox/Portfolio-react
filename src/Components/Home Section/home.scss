@@ -161,6 +161,45 @@
                 font-weight: 600;
                 color: var(--secondaryColor);
             }
+            .line{
+                margin: auto;
+                content: '';
+                background: var(--secondaryColor);
+                height: 100px;
+                width: 1px;
+            }
+        }
+
+        .leftIcons{
+            left: 5%;
+            bottom: 0;
+            .socials{
+                gap:1rem;
+                a{
+                    color: var(--textColor);
+                    &:hover{
+                        .icon{
+                            color: var(--primaryColor);
+                        }
+                    }
+                }
+            }
+        }
+
+        .rightEmail{
+            right: 0;
+            bottom: 0;
+            .emailAddress{
+                transform: rotate(90deg) translate(-90px, 0);
+
+                a{
+                    letter-spacing: 1px;
+                }
+            }
         }
     }
+}
+
+@media screen and (min-width:1240px){
+    
 }
