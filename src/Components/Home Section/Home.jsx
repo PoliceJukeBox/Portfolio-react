@@ -9,7 +9,7 @@ function Home(){
         <>
         <section id="home" className='home section'>
 
-            {/* <div className="leftIcons">
+            <div className="leftIcons">
                 <div className="socials grid">
                     <a href="" target='_blank'>
                         <AiFillGithub className='icon'/>
@@ -21,7 +21,7 @@ function Home(){
                         <AiFillInstagram className='icon'/>
                     </a>
                 </div>
-            </div> */}
+            </div>
 
             <div className="container homeContainer">
                 <span className="introText">
@@ -53,7 +53,7 @@ function Home(){
                 </div>
             </div>
 
-            {/* <div className="rightEmail">
+            <div className="rightEmail">
                 <div>
                     <div className="emailAddress">
                         <a href="https://mailto:vlad.steau11@gmail.com"
@@ -65,7 +65,7 @@ function Home(){
 
                     </div>
                 </div>
-            </div> */}
+            </div>
 
         </section>
         </>
