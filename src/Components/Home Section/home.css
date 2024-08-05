@@ -89,6 +89,9 @@
     transform: translateY(5px);
   }
 }
+.home .rightEmail, .home .leftIcons {
+  display: none;
+}
 
 @media screen and (min-width: 480px) {
   .home .homeContainer {
@@ -165,5 +168,23 @@
   }
   .home .rightEmail .emailAddress a {
     letter-spacing: 1px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .home .homeContainer {
+    padding: 6rem;
+  }
+  .home .homeContainer .introText {
+    font-size: 1.5rem;
+  }
+  .home .homeContainer .title {
+    font-size: 5rem;
+  }
+  .home .homeContainer .subTitle {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+  }
+  .home .homeContainer .homeParagraph {
+    font-size: 1.8rem;
   }
 }/*# sourceMappingURL=home.css.map */
