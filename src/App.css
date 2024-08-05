@@ -194,8 +194,22 @@ img{
 
 body{
     background: var(--BgColor);
+    color: white;  
+}
+
+::selection{
+    background-color: var(--primaryColor);
     color: white;
-    
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: var(--projectCardColor);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primaryHover);
+    border-radius: 10px;
 }
 
 @media screen and (min-width: 769px){

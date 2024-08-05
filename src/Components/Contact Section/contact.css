@@ -116,4 +116,23 @@
 }
 .contact .contactContainer .form form .formBtn:hover {
   background: var(--primaryHover);
+}
+
+@media screen and (min-width: 640px) {
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1150px) {
+  .contact .contactContainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start !important;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .contact {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }/*# sourceMappingURL=contact.css.map */
