@@ -14,6 +14,7 @@
   width: 100%;
   justify-content: center;
   align-items: flex-start;
+  gap: 2rem;
 }
 .contact .contactContainer .socialContacts {
   justify-content: center;
@@ -23,7 +24,11 @@
   padding: 1rem 0;
   text-align: center;
 }
-.contact .contactContainer .socialContacts .card {
+.contact .contactContainer .socialContacts .cards {
+  gap: 1rem;
+  justify-content: center;
+}
+.contact .contactContainer .socialContacts .cards .card {
   display: grid;
   align-items: center;
   row-gap: 10px;
@@ -33,30 +38,55 @@
   border-radius: 10px;
   text-align: center;
 }
-.contact .contactContainer .socialContacts .card .icon {
+.contact .contactContainer .socialContacts .cards .card .icon {
   color: var(--primaryColor);
 }
-.contact .contactContainer .socialContacts .card h4 {
+.contact .contactContainer .socialContacts .cards .card h4 {
   color: var(--textColor);
   font-size: 18px;
 }
-.contact .contactContainer .socialContacts .card .userName {
+.contact .contactContainer .socialContacts .cards .card .userName {
   color: var(--secondaryColor);
   font-weight: 600;
 }
-.contact .contactContainer .socialContacts .card a {
+.contact .contactContainer .socialContacts .cards .card a {
   justify-content: center;
   gap: 5px;
   color: var(--primaryColor);
   font-weight: 600;
   cursor: pointer;
 }
-.contact .contactContainer .socialContacts .card a .icon {
+.contact .contactContainer .socialContacts .cards .card a .icon {
   font-size: 20px;
 }
-.contact .contactContainer .socialContacts .card a:hover {
+.contact .contactContainer .socialContacts .cards .card a:hover {
   color: var(--primaryHover);
 }
-.contact .contactContainer .socialContacts .card a:hover .icon {
+.contact .contactContainer .socialContacts .cards .card a:hover .icon {
   transform: translateX(10px);
+}
+.contact .contactContainer .form {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+.contact .contactContainer .form h3 {
+  text-align: center;
+  color: var(--secondaryColor);
+}
+.contact .contactContainer .form form {
+  width: 100%;
+  text-align: center;
+}
+.contact .contactContainer .form form input, .contact .contactContainer .form form textarea {
+  height: 1rem;
+  width: 90%;
+  padding: 1.5rem 0.5rem;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid var(--secondaryColor);
+  margin: 0.5rem 0;
+  outline: none;
+  color: var(--textColor);
+  font-weight: 600;
 }/*# sourceMappingURL=contact.css.map */
