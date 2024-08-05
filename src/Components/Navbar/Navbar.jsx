@@ -52,7 +52,7 @@ function Navbar(){
                     <li className="navItem">
                         <a href="#contact" className='navLink'><span className='headerNumber'>4.</span>Contact</a>
                     </li>
-                    <button className="btn"><a href="">Resume</a></button>
+                    <button className="btn"><a href="SteauVladCV.pdf" download="SteauVladCV.pdf">Resume</a></button>
                 </ul>
 
                 <div onClick={removeNavBar} className="closeNavBar">

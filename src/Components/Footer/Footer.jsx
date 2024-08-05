@@ -4,7 +4,9 @@ function Footer(){
 
     return(
         <>
-        <section id="footer">Footer Component</section>
+        <section className='footer'>
+            <span>Developed by Steau Vlad 2024 | All rights reserved</span>
+        </section>
         </>
     )
 }
