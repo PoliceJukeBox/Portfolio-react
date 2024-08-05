@@ -97,6 +97,32 @@
                     outline: none;
                     color: var(--textColor);
                     font-weight: 600;
+
+                    &::placeholder{
+                        color: var(--secondaryColor);
+                        opacity: .5;
+                    }
+                }
+
+                textarea{
+                    height: 150px;
+                }
+
+                .formBtn{
+                    display: block;
+                    margin: auto;
+                    width: 90%;
+                    border: none;
+                    padding: 1rem 0;
+                    border-radius: 10px;
+                    font-size: 18px;
+                    background: var(--primaryColor);
+                    color: var(--BgColor);
+                    font-weight: 600;
+                    cursor: pointer;
+                    &:hover{
+                        background: var(--primaryHover);
+                    }
                 }
             }
         }

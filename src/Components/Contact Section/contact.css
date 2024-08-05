@@ -89,4 +89,31 @@
   outline: none;
   color: var(--textColor);
   font-weight: 600;
+}
+.contact .contactContainer .form form input::-moz-placeholder, .contact .contactContainer .form form textarea::-moz-placeholder {
+  color: var(--secondaryColor);
+  opacity: 0.5;
+}
+.contact .contactContainer .form form input::placeholder, .contact .contactContainer .form form textarea::placeholder {
+  color: var(--secondaryColor);
+  opacity: 0.5;
+}
+.contact .contactContainer .form form textarea {
+  height: 150px;
+}
+.contact .contactContainer .form form .formBtn {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: none;
+  padding: 1rem 0;
+  border-radius: 10px;
+  font-size: 18px;
+  background: var(--primaryColor);
+  color: var(--BgColor);
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact .contactContainer .form form .formBtn:hover {
+  background: var(--primaryHover);
 }/*# sourceMappingURL=contact.css.map */

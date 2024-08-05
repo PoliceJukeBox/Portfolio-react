@@ -1,10 +1,25 @@
 import './contact.css'
+
+//EmailJS
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+
+//Icons
 import { BsInstagram } from "react-icons/bs";
 import { TbArrowBigRightLines } from "react-icons/tb";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
 function Contact(){
+
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_lb83d7t', 'template_fexfkw8', form.current, 'mEQDc2vBpQaMnJq-V')
+    
+        e.target.reset();
+    };
 
     return(
         <>
@@ -72,10 +87,10 @@ function Contact(){
                 <div className="form grid">
                     <h3>Send me an email</h3>
 
-                    <form action="">
-                        <input type="text" placeholder='Enter your Name'/>
-                        <input type="email" placeholder='Enter your Email'/>
-                        <textarea name="sessage" placeholder='Enter your message'></textarea>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" placeholder='Enter your Name' name='name'/>
+                        <input type="email" placeholder='Enter your Email' name='email'/>
+                        <textarea name="message" placeholder='Enter your message'></textarea>
                         <button className="formBtn" type='submit' name='submit'>Send Email</button>
                     </form>
                 </div>
