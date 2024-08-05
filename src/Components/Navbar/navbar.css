@@ -88,4 +88,41 @@
 .activeHeader {
   background-color: var(--projectCardColor);
   box-shadow: 0 2px 4px rgba(1, 15, 29, 0.904);
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 2.5rem;
+  }
+  .navLists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .navLists .navItem {
+    width: -moz-max-content;
+    width: max-content;
+    height: 100%;
+    font-size: 1.5rem;
+  }
+  .navLists .navItem .navLink {
+    color: var(--textColor);
+    font-weight: 600;
+  }
+  .navLists .navItem .navLink:hover {
+    color: var(--primaryColor);
+  }
+  .navLists .navItem .navLink .headerNumber {
+    color: var(--primaryColor);
+  }
+  .navLists .btn a {
+    color: var(--primaryColor);
+  }
+  .closeNavBar {
+    display: none;
+  }
+  .toggleNavBar {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */
