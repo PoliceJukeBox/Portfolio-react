@@ -15,6 +15,7 @@
         margin-top: 1rem;
         justify-content: space-between;
         grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
 
         .singleProject{
             display: grid;
@@ -41,6 +42,41 @@
             &:hover{
                 transform: translateY(-7px);
                 border-bottom: 2px solid var(--primaryColor);
+            }
+
+            .imgDiv{
+                height: 150px;
+                width: auto;
+                border-radius: 5px;
+                overflow: hidden;
+                cursor: pointer;
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 5px;
+                }
+
+                .projectTitle{
+                    display: flex;
+                    font-weight: 600;
+                    color: var(--textColor); 
+                }
+
+                .desc{
+                    font-weight: 600;
+                    color: var(--secondaryColor);
+
+                }
+
+                .technologies{
+                    gap: .5rem;
+                    justify-content: flex-end;
+                    small{
+                        color: var(--secondaryColor);
+                        font-weight: 600;
+                    }
+                }
             }
         }
     }
