@@ -81,3 +81,48 @@
         }
     }
 }
+
+//MEDIA QUERIES
+@media screen and(min-width:600px){
+    .projects{
+        .projectContainer{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and(min-width:769px){
+    .projects{
+        width: 70%;
+        margin: auto;
+        .projectContainer{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@media screen and(min-width:1150px){
+    .projects{
+        .projectContainer{
+            grid-template-columns: repeat(3, 1fr);
+
+            .singleProject{
+                .desc{
+                    font-size: 17px;
+                    .technologies{
+                        small{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(min-width:1240px){
+    .projects{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
