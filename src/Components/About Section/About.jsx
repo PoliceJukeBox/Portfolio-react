@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
 import { TbCloudDownload } from "react-icons/tb";
-// import img from '../../assets/PozaSteauVlad.jpg';
+import img from '../../assets/PozaSteauVlad.jpg';
 
 function About(){
 
@@ -36,9 +36,9 @@ function About(){
                     </div>
                 </div>
 
-                {/* <div className="aboutImgDiv">
+                <div className="aboutImgDiv">
                     <img src={img} alt="Image Steau Vlad" className='aboutImg'/>
-                </div> */}
+                </div>
             </div>
         </section>
         </>
