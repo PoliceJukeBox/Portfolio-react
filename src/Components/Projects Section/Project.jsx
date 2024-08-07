@@ -13,7 +13,7 @@ function Project(){
                 </h5>
             </div>
 
-            <div className="projectContainer grid">
+            {/* <div className="projectContainer grid">
                 {
                     data.map(({id, github, image, liveLink, desc, demo, title, tech1, tech2, tech3, tech4}) =>{
                         return(
@@ -53,7 +53,7 @@ function Project(){
                         )
                     })
                 }
-            </div>
+            </div> */}
         </section>
         </>
     )
