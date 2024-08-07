@@ -60,15 +60,15 @@
             border: 2px dashed var(--primaryColor);
             background-color: var(--formColor);
 
-            .aboutImg{
-                width: 215px;
-                scale: 0.9;
-                translate: 0 -27px;
-                object-fit: cover;
-                align-self: center;
-                justify-self: center;
-                z-index: 1;
-            }
+            // .aboutImg{
+            //     width: 215px;
+            //     scale: 0.9;
+            //     translate: 0 -27px;
+            //     object-fit: cover;
+            //     align-self: center;
+            //     justify-self: center;
+            //     z-index: 1;
+            // }
         }
 
         .aboutImgDiv::before{
