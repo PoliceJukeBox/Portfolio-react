@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.css'
 import { TbCloudDownload } from "react-icons/tb";
-import img from '../../assets/PozaSteauVlad.jpg';
+import img from '../../assets/pozasv.jpg';
 
 function About(){
 
