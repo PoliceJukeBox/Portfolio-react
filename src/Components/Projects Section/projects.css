@@ -10,6 +10,28 @@
   --headerHeight: 3rem;
 }
 
+.projects .dificultyFilter {
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.projects .dificultyFilter button {
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+  color: var(--textColor);
+  border: 2px solid var(--primaryColor);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.projects .dificultyFilter button:hover {
+  background-color: var(--primaryHover);
+}
+.projects .dificultyFilter .active {
+  background-color: var(--primaryHover);
+}
 .projects .projectContainer {
   margin-top: 1rem;
   justify-content: space-between;
@@ -61,6 +83,18 @@
   font-weight: 600;
   color: var(--textColor);
 }
+.projects .projectContainer .singleProject .projectTitle .easy {
+  color: green;
+  text-transform: uppercase;
+}
+.projects .projectContainer .singleProject .projectTitle .medium {
+  color: yellow;
+  text-transform: uppercase;
+}
+.projects .projectContainer .singleProject .projectTitle .hard {
+  color: red;
+  text-transform: uppercase;
+}
 .projects .projectContainer .singleProject .desc {
   font-weight: 600;
   color: var(--secondaryColor);
@@ -98,6 +132,9 @@
 @media screen and (min-width: 1150px) {
   .projects .projectContainer {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .projectContainer .singleProject .imgDiv {
+    height: 270px;
   }
   .projects .projectContainer .singleProject .desc {
     font-size: 17px;
