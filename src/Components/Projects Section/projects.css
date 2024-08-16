@@ -34,12 +34,16 @@
 .projects .projectContainer .singleProject .externalLinks .goToPageLink a:hover, .projects .projectContainer .singleProject .externalLinks .githubIcon a:hover {
   color: var(--primaryHover);
 }
+.projects .projectContainer .singleProject .externalLinks .goToPageLink a {
+  text-decoration: underline;
+  font-size: larger;
+}
 .projects .projectContainer .singleProject:hover {
   transform: translateY(-7px);
   border-bottom: 2px solid var(--primaryColor);
 }
 .projects .projectContainer .singleProject .imgDiv {
-  height: 150px;
+  height: 200px;
   width: auto;
   border-radius: 5px;
   overflow: hidden;
@@ -52,20 +56,59 @@
      object-fit: cover;
   border-radius: 5px;
 }
-.projects .projectContainer .singleProject .imgDiv .projectTitle {
+.projects .projectContainer .singleProject .projectTitle {
   display: flex;
   font-weight: 600;
   color: var(--textColor);
 }
-.projects .projectContainer .singleProject .imgDiv .desc {
+.projects .projectContainer .singleProject .desc {
   font-weight: 600;
   color: var(--secondaryColor);
 }
-.projects .projectContainer .singleProject .imgDiv .technologies {
+.projects .projectContainer .singleProject .technologies {
+  margin-top: 1rem;
   gap: 0.5rem;
   justify-content: flex-end;
 }
-.projects .projectContainer .singleProject .imgDiv .technologies small {
+.projects .projectContainer .singleProject .technologies small {
   color: var(--secondaryColor);
   font-weight: 600;
+  font-size: 18px;
+}
+.projects .projectContainer .singleProject .technologies small:hover {
+  background-color: var(--primaryColor);
+  border-radius: 5px;
+  padding: 0 6px;
+}
+
+@media screen and (min-width: 600px) {
+  .projects .projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 769px) {
+  .projects {
+    width: 70%;
+    margin: auto;
+  }
+  .projects .projectContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1150px) {
+  .projects .projectContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .projectContainer .singleProject .desc {
+    font-size: 17px;
+  }
+  .projects .projectContainer .singleProject .technologies small {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .projects {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }/*# sourceMappingURL=projects.css.map */

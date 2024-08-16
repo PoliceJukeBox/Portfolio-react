@@ -1,5 +1,61 @@
 import './projects.css'
 import { FiGithub } from "react-icons/fi";
+import pozasv from '../../assets/pozasv.jpg'
+
+const data = [
+    {
+        id: 1,
+        image: pozasv,
+        demo: 'https://portfolio-sv-eight.vercel.app/',
+        github: '',
+        title: "Incercare",
+        dificulty: "hard",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus architecto soluta. Voluptatem, consequuntur quos! Aspernatur voluptatibus assumenda est doloremque, enim numquam at deserunt minus officiis sed delectus deleniti debitis!",
+        tech1: 'react',
+        tech2: 'scss',
+        tech3: 'mysql(supabase)',
+        tech4: '' 
+    },
+    {
+        id: 2,
+        image: pozasv,
+        demo: 'https://portfolio-sv-eight.vercel.app/',
+        github: '',
+        title: "Incercare",
+        dificulty: "hard",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus architecto soluta. Voluptatem, consequuntur quos! Aspernatur voluptatibus assumenda est doloremque, enim numquam at deserunt minus officiis sed delectus deleniti debitis!",
+        tech1: 'react',
+        tech2: 'scss',
+        tech3: 'mysql(supabase)',
+        tech4: '' 
+    },
+    {
+        id: 3,
+        image: pozasv,
+        demo: 'https://portfolio-sv-eight.vercel.app/',
+        github: '',
+        title: "Incercare",
+        dificulty: "hard",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus architecto soluta. Voluptatem, consequuntur quos! Aspernatur voluptatibus assumenda est doloremque, enim numquam at deserunt minus officiis sed delectus deleniti debitis!",
+        tech1: 'react',
+        tech2: 'scss',
+        tech3: 'mysql(supabase)',
+        tech4: '' 
+    },
+    {
+        id: 4,
+        image: pozasv,
+        demo: 'https://portfolio-sv-eight.vercel.app/',
+        github: '',
+        title: "Incercare",
+        dificulty: "hard",
+        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus architecto soluta. Voluptatem, consequuntur quos! Aspernatur voluptatibus assumenda est doloremque, enim numquam at deserunt minus officiis sed delectus deleniti debitis!",
+        tech1: 'react',
+        tech2: 'scss',
+        tech3: 'mysql(supabase)',
+        tech4: '' 
+    }
+]
 
 function Project(){
 
@@ -13,9 +69,9 @@ function Project(){
                 </h5>
             </div>
 
-            {/* <div className="projectContainer grid">
+            <div className="projectContainer grid">
                 {
-                    data.map(({id, github, image, liveLink, desc, demo, title, tech1, tech2, tech3, tech4}) =>{
+                    data.map(({id, github, image, desc, demo, title, tech1, tech2, tech3, tech4}) =>{
                         return(
                             <div key={id} className="singleProject">
                                 <div className="externalLinks flex">
@@ -53,7 +109,7 @@ function Project(){
                         )
                     })
                 }
-            </div> */}
+            </div>
         </section>
         </>
     )
