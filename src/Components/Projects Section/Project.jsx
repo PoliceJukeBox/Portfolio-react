@@ -80,7 +80,7 @@ function Project(){
 
     const filterItems = () =>{
         if(selectedFilters.length > 0){
-            let tempItems = selectedFilters.map((selectedCategory) =>{
+            let tempItems = selectedFilters.toReversed().map((selectedCategory) =>{
                 let temp = data.filter((item) => item.category ===selectedCategory)
                 return temp;
             });
@@ -114,7 +114,7 @@ function Project(){
 
             <div className="projectContainer grid">
                 {
-                    filteredItems.map((item, idx) =>{
+                    filteredItems.toReversed().map((item, idx) =>{
                         return(
                             <div key={`data-${idx}`} className="singleProject">
                                 <div className="externalLinks flex">
