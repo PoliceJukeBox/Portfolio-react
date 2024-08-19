@@ -60,6 +60,9 @@
   text-decoration: underline;
   font-size: larger;
 }
+.projects .projectContainer .singleProject .externalLinks .goToPageLink .active {
+  display: none;
+}
 .projects .projectContainer .singleProject:hover {
   transform: translateY(-7px);
   border-bottom: 2px solid var(--primaryColor);
@@ -98,6 +101,15 @@
 .projects .projectContainer .singleProject .desc {
   font-weight: 600;
   color: var(--secondaryColor);
+}
+.projects .projectContainer .singleProject .features {
+  font-weight: 400;
+  font-size: 18px;
+}
+.projects .projectContainer .singleProject .skills {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
 }
 .projects .projectContainer .singleProject .technologies {
   margin-top: 1rem;
