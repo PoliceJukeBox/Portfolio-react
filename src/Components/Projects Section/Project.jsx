@@ -211,10 +211,13 @@ function Project() {
                     <div key={`data-${idx}`} className="singleProject">
                         <div className="externalLinks flex">
                             <div className="goToPageLink">
-                                <a href={item.demo} target='_blank' rel="noopener noreferrer">
-                                    Go to site
+                                {item.demo !== '' && (
+                                <a href={item.demo} target="_blank" rel="noopener noreferrer">
+                                Go to site
                                 </a>
+                                )}
                             </div>
+                            
                             <div className="githubIcon">
                                 <a href={item.github} target='_blank' rel="noopener noreferrer">
                                     <FiGithub className='icon' />
